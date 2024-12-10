@@ -1,0 +1,45 @@
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.project-table {
+  margin: 20px auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.project-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
